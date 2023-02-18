@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <string.h>
 /**
 * main - Prints all possible combinations of two different digits
 *
@@ -16,16 +16,14 @@ int main(void)
 		{
 			putchar((digit1 % 10) + '0');
 			putchar((digit2 % 10) + '0');
-
 			if (digit1 == 8 && digit2 == 9)
+			{
 				continue;
-			
+			}
 			putchar(',');
 			putchar(' ');
 		}
 	}
-
 	putchar('\n');
-
 	return (0);
 }
