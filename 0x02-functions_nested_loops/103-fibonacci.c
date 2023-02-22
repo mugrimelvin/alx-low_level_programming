@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlic.h>
+#include "main.h"
 /**
  * main - Prints the add of the even-valued
  * fibonacci numbers.
@@ -24,5 +25,5 @@ int main(void)
 		}
 	}
 	printf("%ld\n", afn);
-	return (0)
+	return (0);
 }
