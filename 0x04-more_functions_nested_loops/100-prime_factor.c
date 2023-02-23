@@ -9,20 +9,19 @@
   */
 int main(void)
 {
-	long x, maxf;
-	long number = 612852475143;
-	double square = sqrt(number);
+	long int n, x;
 
-	for (x = 1; x <= square; x++)
+	n = 612852475143;
+	for (x = 2; x <= n; x++)
 	{
-		if (number % x == 0)
+		if (n % x == 0)
 		{
-			maxf = number / x;
+			n /= x;
+			x--;
 		}
 	}
 
-	printf("%ld\n", maxf);
-
+	printf("%ld\n", x);
 	return (0);
 }
 
