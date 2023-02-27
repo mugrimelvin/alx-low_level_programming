@@ -7,7 +7,8 @@
   * Return: String length
   */
 int _strlen(char *s)
-{	nt c = 0;
+{	
+	int c = 0;
 
 	for (; *s != '\0'; s++)
 	{
