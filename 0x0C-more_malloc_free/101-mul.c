@@ -2,8 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define ERR_MSG "Error"
-
 /**
  * _is_zero - determines if any number is zero
  * @argv: argument vector.
